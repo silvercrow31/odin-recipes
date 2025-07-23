@@ -1,10 +1,38 @@
 
 * {
     box-sizing: border-box;
-    background-color: rgb(255, 255, 151);
+    background-color: rgb(238, 238, 167);
 }
+
 img {
     border: 10px solid rgb(34, 22, 22);
     padding: 2px;
     margin: 10px;
+}
+
+h1,
+h2 {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ing-container {
+    width:1500px;
+    text-align: center;
+    background-color: greenyellow;
+}
+.list-container {
+    text-align: left;
+    width: auto;
+    background-color: yellow;
+}
+.img-container {
+    width: auto;
+    background-color: brown;
+}
+
+.ing-container,
+.list-container,
+.img-container {
+    padding: 5px;
+    display: inline-block;
 }
